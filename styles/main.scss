@@ -1,3 +1,64 @@
-body {
-  background: #ece7e7;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {    
+    background: #f7f8fa;
+}
+
+.main-container{
+    background-color: white;
+    margin: 0 220px;
+    &.no-white{
+        background: transparent;
+    }
+    &.about-container .history .item {
+        margin-bottom:10px;
+    }
+}
+
+.news-header{
+    background-image: url('https://static.pexels.com/photos/177557/pexels-photo-177557.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:150px;
+    h1{
+        margin-top:0;
+        padding-top:35px;
+        text-align: center;
+        font-size:56px;
+        color:white;    
+        height: 100%;
+        background: rgba(0,0,0,0.3);
+    }
+}
+
+.about-header{
+    background-image: url('https://static.pexels.com/photos/730564/pexels-photo-730564.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:150px;
+    margin-bottom: 40px;
+    h1{
+        margin-top:0;
+        padding-top:35px;
+        text-align: center;
+        font-size:56px;
+        color:white;    
+        height: 100%;
+        background: rgba(0,0,0,0.3);
+    }
+}
+
+.no-background{
+    background-color: transparent!important;
+}
+
+ul{
+    list-style: none;
 }

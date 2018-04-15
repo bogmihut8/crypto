@@ -21,8 +21,13 @@
     "node-sass": "^4.7.2",
     "normalize.css": "^7.0.0",
     "react": "^16.1.1",
+    "react-autocomplete": "^1.7.2",
+    "react-bootstrap": "^0.31.5",
     "react-dom": "^16.1.1",
-    "sass-loader": "^6.0.6"
+    "react-icons": "^2.2.7",
+    "react-infinite-scroll-component": "^2.6.0",
+    "sass-loader": "^6.0.6",
+    "semantic-ui-react": "^0.77.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

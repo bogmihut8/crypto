@@ -4,8 +4,11 @@ import {
 	Route
 } from 'react-router-dom';
 import App from './app';
-import About from './components/About';
-import Sample from './components/Sample';
+import About from './components/views/About';
+import News from './components/views/News';
+import Currency from './components/views/Currency';
+import Header from './components/elem/Header';
+import Footer from './components/elem/Footer';
 import 'styles/index.scss';
 
 export default class Routes extends React.Component {
@@ -13,9 +16,12 @@ export default class Routes extends React.Component {
 		return (
 			<Router>
 				<div>
+                    <Header />
 					<Route exact path="/" component={App}/>
 					<Route path="/about" component={About}/>
-					<Route path="/sample" component={Sample}/>
+					<Route path="/news" component={News}/>
+                    <Route path="/currency/:coin" component={Currency}/>
+                    <Footer />
 				</div>
 			</Router>
 		)
