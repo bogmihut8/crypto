@@ -1,0 +1,15 @@
+.animatedBanner {
+    .grad:after {
+        content: '';
+        height: 100%;
+        left: 0;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .grad::after {
+        background: radial-gradient( circle at top, #38AECC, #0090C1 );
+    }
+}

@@ -1,0 +1,31 @@
+.searchBar {
+    display: inline-flex;
+    float:right;
+    & input {
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        padding: 10px;
+        width: 300px;
+        background-color: #38AECC;
+        border: none;
+        height: 50px;
+        font-size:14px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        &::placeholder {
+            color: white;
+        }
+    }
+    
+    button {
+        font-family: 'Open Sans Condensed', sans-serif;
+        background-color: #38AECC;
+        border: none;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        margin-left:-10px;
+        color: white;
+        padding:10px;
+    }
+
+}

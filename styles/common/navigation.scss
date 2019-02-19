@@ -1,0 +1,29 @@
+.navigation{
+    ul {
+        display: inline-flex;
+        list-style: none;
+        margin-bottom:0;
+        li {
+            height: 50px;
+            position: relative;
+            font-size:14px;
+            a{
+                color: #fafafa;
+                display: block;
+                position: relative;
+                left: 0;
+                padding: 15px 20px 10px;
+            }
+            
+            &.selected, &:hover{
+                background-color: #046E8F;
+                cursor:pointer;
+            }
+        }
+        .faHome {
+            position:relative;
+            top:-2px;
+            font-size:20px;
+        }
+    }
+}

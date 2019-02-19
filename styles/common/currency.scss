@@ -1,0 +1,69 @@
+.currency-container{
+    background-color: white;
+    padding:20px;
+    font-family: 'Roboto', sans-serif;
+    .breadcrumb {
+        background-color:white;
+        padding:0;
+    }
+    .currency-header {
+        font-size:2.5em;
+        .right{
+            float:right;
+            .value {
+                margin-left:30px;
+            }
+            .last-24h {
+                font-size:20px;
+                color: #666;
+                margin-left:20px;
+                .icon{
+                    position: relative;
+                    top:-4px;
+                }
+            }
+        }
+    }
+
+    .currency-stats{
+        font-size:1.5em;
+        .icon{
+            position: relative;
+            top:-2px;
+            font-size:12px;
+        }
+        .mainstat{
+            margin-bottom:0;
+            font-weight:600;
+            font-size: 16px;
+        }
+        .underlabel{
+            font-size:15px;
+            color: #666;
+        }
+    }
+    .red{
+        color:red;
+    }
+    
+    .green {
+        color: green;
+    }
+}
+
+.currency-extra{
+    background-color: #f7f8fa;
+    margin-top:20px;
+    .currency-markets{
+        td, th{
+            padding:10px!important;
+        }
+    }
+    .currency-markets, .currency-news{
+        margin-left:20px;
+        background: white;
+        box-sizing: border-box;
+        border: 1px solid #eceff2;
+        border-radius: 3px;
+    }
+}

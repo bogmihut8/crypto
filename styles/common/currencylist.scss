@@ -1,0 +1,46 @@
+.currencyList {
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 1px solid #eceff2;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    h2 {
+        padding: 0 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    table {
+        tbody, thead {
+            tr {
+                height:50px;
+                td, th {
+                    padding:15px!important;
+                    &.center{
+                        text-align: center;
+                    }
+                }
+                .name-cell{
+                    font-weight: bold;
+                }
+                .price-cell{
+                    background-color:#0090C1;
+                    color:white;
+                    font-weight: bold;
+                }
+                .negative {
+                    color:#c91d12;
+                }
+                .positive {
+                    color:#4F8A10;
+                }
+                .icon{
+                    position: relative;
+                    top: -2px;
+                }
+            }
+        }
+        tbody tr:hover {
+            background-color:#f3f5f9;
+        }
+    }
+}

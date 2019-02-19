@@ -43,7 +43,8 @@ module.exports = {
     // serve index.html in place of 404 responses to allow HTML5 history
     historyApiFallback: true,
     port: PORT,
-    host: HOST
+    host: HOST,
+    public: 'crypto-bogmihut8.c9users.io'
   },
   plugins: [
     new webpack.NoEmitOnErrorsPlugin(),

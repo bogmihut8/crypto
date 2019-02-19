@@ -1,0 +1,25 @@
+.newsList {
+ -moz-column-width: 30em;
+ -webkit-column-width: 30em;
+ -moz-column-gap: 5em;
+ -webkit-column-gap: 5em; 
+    margin-top:30px;
+    .news-cell {
+        display: inline-block;
+        margin:  0.25rem;
+        color: #183446;
+        border-top: 5px solid #0090C1; 
+        h3{
+            margin-top:0;
+            margin-bottom:5px;
+        }
+        &:hover{
+            text-decoration: none;
+            color: #183446;    
+        }
+        img{
+            width:100%;
+            margin-bottom:20px;
+        }
+    }
+}
